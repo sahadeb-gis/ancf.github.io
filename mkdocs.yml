@@ -1,0 +1,100 @@
+# ============================================================
+# ANCF WEBSITE CONFIGURATION
+# This file is in the YAML format and is very sensitive to
+# spaces. Ensure to match the indentation level and spacing
+# of new items with existing ones.
+# ============================================================
+
+site_name: "Avayaranya Nature Conservation Foundation"
+site_description: "ANCF — a Bangladesh-based nonprofit working on community plantation, biodiversity conservation, tree tagging, mapping, and climate action since 2013."
+site_author: "Avayaranya Nature Conservation Foundation (ANCF)"
+# After your site is live, uncomment and set this to your actual GitHub Pages URL
+# (or your custom domain once the CNAME is in place):
+#site_url: "https://avayaranya.org"
+
+theme:
+  name: material
+  # Site logo (header) — points to the ANCF wordmark PNG.
+  # Favicon is set separately below.
+  logo: assets/images/ancf_logo.png
+  favicon: assets/images/ancf_logo.png
+  palette:
+    # Green palette to match the ANCF brand (logo is green on white).
+    # Available colors: red, pink, purple, deep purple, indigo, blue, light blue,
+    # cyan, teal, green, light green, lime, yellow, amber, orange, deep orange
+    - scheme: default            # Light mode
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate              # Dark mode
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs            # Top-level nav items shown as horizontal tabs
+    - navigation.top             # Back-to-top button when scrolling up
+    - content.code.copy          # Copy button on all code blocks
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+extra_css:
+  - assets/css/extra.css
+
+markdown_extensions:
+  - md_in_html        # Allows Markdown inside HTML blocks (used for project cards)
+  - attr_list         # Allows adding CSS classes to elements: ![img](url){ .class }
+  - admonition        # Note/warning/tip boxes
+  - pymdownx.details  # Collapsible admonition blocks
+  - pymdownx.superfences
+  - tables
+  - pymdownx.emoji:   # Renders :material-icon: and :fontawesome-brands-icon: inline icons
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+copyright: "Copyright &copy; Avayaranya Nature Conservation Foundation (ANCF)"
+
+extra:
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/Avayaranyapage
+    - icon: fontawesome/brands/github
+      link: https://github.com/sahadeb-gis/ancf.github.io
+    - icon: material/email
+      link: mailto:info@avayaranya.org
+
+plugins:
+  - search
+  - meta
+  - mkdocs-jupyter
+
+nav:
+  - Home: index.md
+  - About:
+    - "About ANCF": about.md
+    - "What We Do": what-we-do.md
+    - "Team": team.md
+  - Projects:
+    - "All Projects": projects/index.md
+    - "Community Plantation": projects/community-plantation.md
+    - "Tree Tagging": projects/tree-tagging.md
+    - "Mapping Endangered Plants": projects/mapping-endangered-plants.md
+    - "Forest Bathing": projects/forest-bathing.md
+    - "Science in Conservation": projects/science-in-conservation.md
+    # HOW TO ADD A NEW PROJECT:
+    # 1. Copy docs/projects/community-plantation.md to docs/projects/your-project-name.md
+    #    (or drop an .ipynb file into docs/projects/ for a Jupyter notebook project)
+    # 2. Edit the new file with your project content
+    # 3. Add a line below (same format): - "Your Project Title": projects/your-project-name.md
+    # 4. Add a project card on docs/projects/index.md
+  - Stories:
+    - "All Stories": stories/index.md
+    - "Mapping Endangered Plants in Bangladesh": stories/mapping-endangered-plants.md
+    - "Plantation and Forest Landscape Restoration": stories/plantation-and-forest-landscape-restoration.md
+    - "Tree Tagging and Prospects": stories/tree-tagging-and-prospects.md
+    - "Forest Bathing and Bangladesh": stories/forest-bathing-and-bangladesh.md
+  - Contact: contact.md
