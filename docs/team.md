@@ -55,6 +55,61 @@ Gazaria Khankaye Salehia campus initiative.]
 [PLACEHOLDER — short bio.]
 </div>
 
+
+<div class="team-card" markdown>
+![Mosabbir Hossain](assets/images/team/placeholder-person.png)
+
+**Mosabbir Hossain**
+
+<p class="role">Member</p>
+
+[PLACEHOLDER — short bio.]
+</div>
+
+
+<div class="team-card" markdown>
+![Mosabbir Hossain](assets/images/team/placeholder-person.png)
+
+**Mosabbir Hossain**
+
+<p class="role">Member</p>
+
+[PLACEHOLDER — short bio.]
+</div>
+
+
+<div class="team-card" markdown>
+![Mosabbir Hossain](assets/images/team/placeholder-person.png)
+
+**Mosabbir Hossain**
+
+<p class="role">Member</p>
+
+[PLACEHOLDER — short bio.]
+</div>
+
+
+<div class="team-card" markdown>
+![Mosabbir Hossain](assets/images/team/placeholder-person.png)
+
+**Mosabbir Hossain**
+
+<p class="role">Member</p>
+
+[PLACEHOLDER — short bio.]
+</div>
+
+
+<div class="team-card" markdown>
+![Mosabbir Hossain](assets/images/team/placeholder-person.png)
+
+**Mosabbir Hossain**
+
+<p class="role">Member</p>
+
+[PLACEHOLDER — short bio.]
+</div>
+
 </div>
 
 ---
