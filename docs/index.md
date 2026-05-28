@@ -3,18 +3,10 @@ hide:
   - toc
   - navigation
 ---
-<!--
-CHECKLIST FOR THIS PAGE:
-- [ ] Confirm the tagline and founding statement match how ANCF describes itself today
-- [ ] Update the cumulative stats below as new years are added (source: docs/assets/images/ancf_ one pager.png)
-- [ ] Replace assets/images/about.png with a real ANCF field photo if available
-- [ ] Verify the four highlighted programs reflect current priorities
--->
-
 <div class="hero">
   <img src="assets/images/ancf_banner.png" alt="ANCF banner" class="hero-banner">
-  <h1>Avayaranya Nature Conservation Foundation</h1>
-  <p><strong>Conservation of endangered tree species, native fruit species, biodiversity habitat restoration, and climate action.</strong></p>
+  <h1>Avayaranya Nature Conservation Foundation (ANCF)</h1>
+  <p><strong>Conservation of endangered trees, native fruit species, biodiversity, and climate action.</strong></p>
   <p><em>A nonprofit working across Bangladesh since 2013.</em></p>
 </div>
 
@@ -25,18 +17,10 @@ CHECKLIST FOR THIS PAGE:
 <div class="about-section" markdown>
 <div class="about-text" markdown>
 
-Avayaranya Nature Conservation Foundation (ANCF) was founded in 2013 as a
-consortium of foresters and environment enthusiasts. We work on the
-conservation of endangered tree species and native fruit species,
-biodiversity habitat restoration, and climate action through community-led
-plantation, tree tagging, mapping, and applied research.
+**Avayaranya Nature Conservation Foundation (ANCF)**, also know as *Avayaranya* (*অভয়ারণ্য*) is a nonprofit organisation founded in 2013 as a consortium of foresters and environment enthusiasts. Avayaranya is registed under the Societies Registration Act, 1860 (No. S-13827/2022) of the Government of Bangladesh. We work across Bangladesh on the conservation of endangered trees, native fruit species, biodiversity, and climate action through community-led
+plantation, tree tagging, mapping, outreach, and applied research.
 
-Over the past decade we have organised plantation, awareness, and research
-activities across more than ten districts of Bangladesh — from urban
-campuses in Dhaka to remote hill communities in Bandarban and Rangamati —
-in partnership with universities, schools, religious institutions, local
-nurseries, and youth groups.
-
+Over the past decade we have organised plantation, awareness, and research activities across more than ten districts of Bangladesh - from urban campuses in Dhaka to remote hill communities in Bandarban and Rangamati -in partnership with universities, schools, religious institutions, local nurseries, and youth groups.
 </div>
 
 <div class="about-image">
